@@ -170,7 +170,7 @@ html, body {
   .team-member p {
     font-size: 16px;
   }
-  
+
   #contact-us {
     width: 65%;
     margin: 20px auto 10px auto;
@@ -179,6 +179,36 @@ html, body {
     border-radius: 10px;
   }
 
-  #about-company h1 {
+  #contact-us h1 {
     font-size: 36px;
+  } 
+  
+  #contact-form {
+    width: 65%;
+    margin: 20px auto;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  #contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
+  #contact-form button {
+    background-color: #AAB99A;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+  }
+  
+  #contact-form button:hover {
+    background-color: #8FA69D;
   }
