@@ -82,7 +82,7 @@ html, body {
   }
   
   #home-intro {
-    text-align: right;
+
     margin-top: 30px;
     padding: 20px;
     width: 65%;
@@ -124,16 +124,3 @@ html, body {
   #social-icons a img:hover {
     transform: scale(1.1);
   }
-  
-  footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #727D73;
-    color: #F0F0D7;
-  }
-  
-  footer a {
-    color: #F0F0D7;
-    text-decoration: none;
-  }
-  
