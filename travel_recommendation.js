@@ -31,15 +31,12 @@ document.addEventListener('DOMContentLoaded', () => {
             let results = [];
     
             if (searchTerm.includes("beach") || searchTerm.includes("beaches")) {
-                console.log("User searched for a Beach.");
                 results = data.beaches;
             } else if (searchTerm.includes("temple") || searchTerm.includes("temples")) {
-                console.log("User searched for a Temple.");
                 results = data.temples;
             } else {
                 for (const country of data.countries) {
                     if (country.name.toLowerCase().includes(searchTerm)) {
-                        console.log(`User searched for ${country.name}.`);
         
                         country.cities.slice(0, 2).forEach(city => {
                             results.push({
