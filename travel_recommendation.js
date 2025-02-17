@@ -40,9 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 for (const country of data.countries) {
                     if (country.name.toLowerCase().includes(searchTerm)) {
                         console.log(`User searched for ${country.name}.`);
-    
-                        resultsContainer.innerHTML += `<h2>${country.name}</h2>`;
-    
+        
                         country.cities.slice(0, 2).forEach(city => {
                             results.push({
                                 name: city.name,
@@ -63,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const resultElement = document.createElement("div");
                 resultElement.classList.add("city-result");
                 resultElement.innerHTML = `
-                    <h3>${item.name}</h3>
+                    <h2>${item.name}</h2>
                     <img src="photos/${item.imageUrl}" alt="${item.name}" width="200">
                     <p>${item.description}</p>
                 `;
