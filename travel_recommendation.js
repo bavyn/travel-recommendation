@@ -61,6 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
             for (const item of results) {
                 const resultElement = document.createElement("div");
+                resultElement.classList.add("city-result");
                 resultElement.innerHTML = `
                     <h3>${item.name}</h3>
                     <img src="photos/${item.imageUrl}" alt="${item.name}" width="200">
