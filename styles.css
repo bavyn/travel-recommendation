@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
   }
   
   body {
@@ -79,16 +79,26 @@ html, body {
   }
   
   #home-intro {
-    text-align: center;
-    margin-top: 50px;
-    padding: 40px;
-    width: 80%;
-    margin: 0 auto;
+    text-align: right;
+    margin-top: 30px;
+    padding: 20px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #2E4A3B;
+    background: linear-gradient(to right, rgba(208, 221, 208, 0) 0%, #AAB99A 100%);
+    border-radius: 15px;
   }
   
+  
   #home-intro h1 {
+    margin-top: 20px;
     font-size: 36px;
     margin-bottom: 20px;
+  }
+  
+  #home-intro h1 span {
+    display: block;
   }
   
   #home-intro p {
@@ -124,4 +134,3 @@ html, body {
     color: #F0F0D7;
     text-decoration: none;
   }
-  
